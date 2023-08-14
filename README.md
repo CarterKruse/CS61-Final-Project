@@ -5,6 +5,6 @@
 
 [Milestone 2: Database Design](https://github.com/CarterKruse/CS61-Final-Project/wiki/Milestone-2)
 
-[Milestone 3: Database Implementation](https://www.google.com/)
+[Milestone 3: Database Implementation](https://github.com/CarterKruse/CS61-Final-Project/wiki/Milestone-3)
 
 [Milestone 4: Database Features/Enhancements](https://www.google.com/)
