@@ -7,4 +7,4 @@
 
 [Milestone 3: Database Implementation](https://github.com/CarterKruse/CS61-Final-Project/wiki/Milestone-3)
 
-[Milestone 4: Database Features/Enhancements](https://www.google.com/)
+[Milestone 4: Database Features/Enhancements](https://github.com/CarterKruse/CS61-Final-Project/wiki/Milestone-4)
