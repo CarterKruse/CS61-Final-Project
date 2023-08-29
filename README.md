@@ -11,4 +11,6 @@
 
 [Resources](https://github.com/CarterKruse/CS61-Final-Project/wiki/Resources)
 
-[Journal & Reflection](https://github.com/CarterKruse/CS61-Final-Project/wiki/Journal-&-Reflection)
+[Journal](https://github.com/CarterKruse/CS61-Final-Project/wiki/Journal)
+
+[Reflection](https://github.com/CarterKruse/CS61-Final-Project/wiki/Reflection)
