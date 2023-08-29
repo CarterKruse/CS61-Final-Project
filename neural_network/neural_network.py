@@ -12,8 +12,8 @@ print()
 
 features, target = connect()
 # grid_search(features, target)
-# implement(features, target)
+implement(features, target)
 
 end = time.time()
 print()
-print("Time: " + str(round(end - start, 2)) + "Seconds")
+print("Time: " + str(round(end - start, 2)) + " Seconds")
