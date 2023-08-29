@@ -1,0 +1,59 @@
+# CS 61 - Final Project
+# Database Systems
+# Carter Kruse
+
+RESULTS - HIGH R2
+
+Nodes Layer 1: 32
+Nodes Layer 2: 64
+Nodes Layer 3: 128
+Epochs: 300
+R2: 0.48820497164349286
+
+Nodes Layer 1: 64
+Nodes Layer 2: 64
+Nodes Layer 3: 64
+Epochs: 300
+R2: 0.49339618139394936
+
+Nodes Layer 1: 64
+Nodes Layer 2: 64
+Nodes Layer 3: 128
+Epochs: 300
+R2: 0.497856995023391
+
+Nodes Layer 1: 128
+Nodes Layer 2: 64
+Nodes Layer 3: 128
+Epochs: 300
+R2: 0.49590764648173574
+
+Nodes Layer 1: 32
+Nodes Layer 2: 32
+Nodes Layer 3: 32
+Epochs: 400
+R2: 0.49941542129510663
+
+Nodes Layer 1: 32
+Nodes Layer 2: 128
+Nodes Layer 3: 32
+Epochs: 400
+R2: 0.520118940026904
+
+Nodes Layer 1: 32
+Nodes Layer 2: 128
+Nodes Layer 3: 64
+Epochs: 400
+R2: 0.5231162986635706
+
+Nodes Layer 1: 64
+Nodes Layer 2: 128
+Nodes Layer 3: 64
+Epochs: 400
+R2: 0.5178128753742227
+
+Nodes Layer 1: 128
+Nodes Layer 2: 128
+Nodes Layer 3: 64
+Epochs: 400
+R2: 0.49689227523923885
