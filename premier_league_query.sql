@@ -37,8 +37,9 @@ FROM player_season
 		USING (player_season_id)
 	JOIN offensive_stats
 		USING (player_season_id)
+WHERE shots > 10
 ORDER BY (goals / shots) DESC
-LIMIT 50;
+LIMIT 20;
     
 /* Query 2) Which teams had the highest "on target" percentage,
 	and which had the highest "scoring" percentage? */
@@ -110,4 +111,4 @@ FROM player_season
 	JOIN foul_stats
 		USING (player_season_id)
 ORDER BY fouls DESC
-LIMIT 50;
+LIMIT 20;
