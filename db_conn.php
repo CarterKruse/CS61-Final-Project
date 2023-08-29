@@ -5,7 +5,13 @@ $uname= "root";
 $password = "password";
 $db_name = "premier_league";
 
-$conn = mysqli_connect($sname, $uname, $password, $db_name);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
+try {
+    $conn = mysqli_connect($sname, $uname, $password, $db_name);
+} catch (mysqli_sql_exception $e) {
+    die ("Database Connection Error: SQL Injection Detected!");
+}
 
 if (!$conn) {
     echo "Connection failed!";
