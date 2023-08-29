@@ -91,15 +91,15 @@ ranked_data_1_final_bar_plot
 
 # The bar chart is animated across the seasons.
 
-bar_animation_1 <- ranked_data_1_final_bar_plot +
+animation_1 <- ranked_data_1_final_bar_plot +
   transition_states(Season, transition_length = 2, state_length = 1) +
   enter_fly(x_loc = -20, y_loc = 60000000) +
   exit_fly(x_loc = -20, y_loc = 60000000)
 
 # Displaying and saving the animation.
 
-animate(bar_animation_1, duration = 15, fps = 25)
-anim_save("bar_animation_1.gif")
+animate(animation_1, duration = 15, fps = 25)
+anim_save("animation_1.gif")
 
 # Query 2
 # Which players had the highest "on target" percentage, and which had the highest
@@ -168,15 +168,15 @@ ranked_data_2_1_final_bar_plot
 
 # The bar chart is animated across the seasons.
 
-bar_animation_2_1 <- ranked_data_2_1_final_bar_plot +
+animation_2_1 <- ranked_data_2_1_final_bar_plot +
   transition_states(Season, transition_length = 2, state_length = 1) +
   enter_fly(x_loc = -20, y_loc = 0.1) +
   exit_fly(x_loc = -20, y_loc = 0.1)
 
 # Displaying and saving the animation.
 
-animate(bar_animation_2_1, duration = 15, fps = 25)
-anim_save("bar_animation_2_1.gif")
+animate(animation_2_1, duration = 15, fps = 25)
+anim_save("animation_2_1.gif")
 
 # Query 2
 # Which teams had the highest "on target" percentage, and which had the highest
@@ -254,15 +254,15 @@ ranked_data_2_2_final_bar_plot
 
 # The bar chart is animated across the seasons.
 
-bar_animation_2_2 <- ranked_data_2_2_final_bar_plot +
+animation_2_2 <- ranked_data_2_2_final_bar_plot +
   transition_states(Season, transition_length = 2, state_length = 1) +
   enter_fly(x_loc = -20, y_loc = 0.1) +
   exit_fly(x_loc = -20, y_loc = 0.1)
 
 # Displaying and saving the animation.
 
-animate(bar_animation_2_2, duration = 15, fps = 25)
-anim_save("bar_animation_2_2.gif")
+animate(animation_2_2, duration = 15, fps = 25)
+anim_save("animation_2_2.gif")
 
 # Query 3
 # Which teams were most successful on set pieces (free kicks, corners, penalty 
@@ -340,15 +340,15 @@ ranked_data_3_final_bar_plot
 
 # The bar chart is animated across the seasons.
 
-bar_animation_3 <- ranked_data_3_final_bar_plot +
+animation_3 <- ranked_data_3_final_bar_plot +
   transition_states(Season, transition_length = 2, state_length = 1) +
   enter_fly(x_loc = -20, y_loc = 100) +
   exit_fly(x_loc = -20, y_loc = 100)
 
 # Displaying and saving the animation.
 
-animate(bar_animation_3, duration = 15, fps = 25)
-anim_save("bar_animation_3.gif")
+animate(animation_3, duration = 15, fps = 25)
+anim_save("animation_3.gif")
 
 # Query 4
 # Is there a relationship between a player's age and their market value? Are 
@@ -419,15 +419,15 @@ ranked_data_4_final_bar_plot
 
 # The bar chart is animated across the seasons.
 
-bar_animation_4 <- ranked_data_4_final_bar_plot +
+animation_4 <- ranked_data_4_final_bar_plot +
   transition_states(Season, transition_length = 2, state_length = 1) +
   enter_fly(x_loc = -20, y_loc = 60000000) +
   exit_fly(x_loc = -20, y_loc = 60000000)
 
 # Displaying and saving the animation.
 
-animate(bar_animation_4, duration = 15, fps = 25)
-anim_save("bar_animation_4.gif")
+animate(animation_4, duration = 15, fps = 25)
+anim_save("animation_4.gif")
 
 # Query 5
 # Is there a relationship between a player's fouls (including yellow/red cards) 
@@ -507,12 +507,12 @@ ranked_data_5_final_bar_plot
 
 # The bar chart is animated across the seasons.
 
-bar_animation_5 <- ranked_data_5_final_bar_plot +
+animation_5 <- ranked_data_5_final_bar_plot +
   transition_states(Season, transition_length = 2, state_length = 1) +
   enter_fly(x_loc = -20, y_loc = 40) +
   exit_fly(x_loc = -20, y_loc = 40)
 
 # Displaying and saving the animation.
 
-animate(bar_animation_5, duration = 15, fps = 25)
-anim_save("bar_animation_5.gif")
+animate(animation_5, duration = 15, fps = 25)
+anim_save("animation_5.gif")
