@@ -16,7 +16,7 @@ USE premier_league;
 /* Throughout this section, `DROP [TABLE]` commands are commented
 	out, as they were used for troubleshooting throughout. */
     
-DROP TABLE users;
+-- DROP TABLE users;
 
 CREATE TABLE IF NOT EXISTS users
 (
