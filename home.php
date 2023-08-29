@@ -48,7 +48,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
                 <br><br>
                 The following demonstrates that players that are more successful, as determined by the number of goals and assists in a given season, tend to command higher market values. Further, many of the names of players are repeated, as they are high-performing players that continue to perform for their squads, across seasons. In this query, we exclude defenders, as they do not tend to score/assist many goals.
 
-                <img src="visualization/bar_animation_1.gif" class="gallery_img" alt="bar_animation_1">
+                <img src="visualization/animation_1.gif" class="gallery_img" alt="animation_1">
             </div>
 
             <h4>Query 2</h4>
@@ -57,7 +57,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
                 <br><br>
                 The following demonstrates that the players with the highest "scoring" percentage tend to be those that have the highest "on target" percentage. This naturally makes sense, though we must consider the impact of players that did not see much playing time in the respective seasons, and thus have a "scoring" percentage of 100%. To do so, we implement the condition that the number of shots taken in a given season must be greater than 10.
 
-                <img src="visualization/bar_animation_2_1.gif" class="gallery_img" alt="bar_animation_2">
+                <img src="visualization/animation_2_1.gif" class="gallery_img" alt="animation_2">
             </div>
 
             <h4>Query 2</h4>
@@ -66,7 +66,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
                 <br><br>
                 The following demonstrates that the teams with the highest "scoring" percentage tend to be those that have the highest "on target" percentage. Given that we are using aggregate results (across a team for a given season), the impact of outliers is much less significant than in the previous query.
                 
-                <img src="visualization/bar_animation_2_2.gif" class="gallery_img" alt="bar_animation_2_2">
+                <img src="visualization/animation_2_2.gif" class="gallery_img" alt="animation_2_2">
             </div>
 
             <h4>Query 3</h4>
@@ -75,7 +75,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
                 <br><br>
                 The following demonstrates that teams tend to score more often on corners than on free kicks or penalty kicks, at least according to the data. The results show the teams that tend to be consistently successful on set pieces across seasons. In this query, we use aggregate results (across a team for a given season) to provide a more general overview.
                 
-                <img src="visualization/bar_animation_3.gif" class="gallery_img" alt="bar_animation_3">
+                <img src="visualization/animation_3.gif" class="gallery_img" alt="animation_3">
             </div>
 
             <h4>Query 4</h4>
@@ -84,7 +84,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
                 <br><br>
                 The following demonstrates that players between the age of 22 and 27 tend to command higher market values. Further, many of the names of players are repeated, as they are high-performing players that continue to perform for their squads, across seasons. In this query, we calculate the age of a player (a derived attribute) from the given season and a player's birth year.
                 
-                <img src="visualization/bar_animation_4.gif" class="gallery_img" alt="bar_animation_4">
+                <img src="visualization/animation_4.gif" class="gallery_img" alt="animation_4">
             </div>
 
             <h4>Query 5</h4>
@@ -92,7 +92,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
                 Is there a relationship between a player's fouls (including yellow/red cards) and their position on the field?
                 <br><br>
                 The following demonstrates that players who have a lot of fouls tend to be in forward or midfield positions on the field. The results show the players that consistently foul more often, and it is particularly interesting to highlight the positive correlation between the number of yellow/red cards a player receives and the number of fouls they have.
-                <img src="visualization/bar_animation_5.gif" class="gallery_img" alt="bar_animation_5">
+                <img src="visualization/animation_5.gif" class="gallery_img" alt="animation_5">
             </div>
         </section>
 
