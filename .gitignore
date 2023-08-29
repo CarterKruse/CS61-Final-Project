@@ -1,0 +1,7 @@
+# .gitignore
+.DS_Store
+__pycache__
+
+db_conn.php
+premier_league.R
+connect.py
