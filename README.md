@@ -10,3 +10,5 @@
 [Milestone 4: Database Features/Enhancements](https://github.com/CarterKruse/CS61-Final-Project/wiki/Milestone-4)
 
 [Resources](https://github.com/CarterKruse/CS61-Final-Project/wiki/Resources)
+
+[Journal & Reflection](https://github.com/CarterKruse/CS61-Final-Project/wiki/Journal-&-Reflection)
