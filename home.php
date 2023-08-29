@@ -32,10 +32,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) { ?>
         <section id="about">
             <h3>About</h3>
             <p>
-                Dartmouth CS 61 - Database Systems
+                This project analyzes a Premier League soccer dataset from 2015-2019 to find insights into player statistics, team performance, and market valuation. An entity relationship diagram guided the creation of a structured SQL database. Queries were executed to determine relationships between market value and player success metrics, top performers in shooting accuracy, impact of set pieces, age and value correlations, and foul tendencies by position.
             <p>
             <p>
-                Final Project - Premier League
+                A neural network model was developed to predict player market value. An authentication-protected front-end visualizes the analysis through interactive R graphics. Overall, the project provides a data science workflow from databasing to modeling and visualization for gaining useful insights from sports analytics.
             </p>
         </section>
 
