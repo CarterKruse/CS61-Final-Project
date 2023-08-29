@@ -1,6 +1,10 @@
 # CS61-Final-Project
 ## Database Systems (Carter Kruse)
 
+[Home](https://github.com/CarterKruse/CS61-Final-Project/wiki/Home)
+
+[Enhancements](https://github.com/CarterKruse/CS61-Final-Project/wiki/Enhancements)
+
 [Journal](https://github.com/CarterKruse/CS61-Final-Project/wiki/Journal)
 
 [Milestone 1: Data Set Research & Project Site](https://github.com/CarterKruse/CS61-Final-Project/wiki/Milestone-1)
